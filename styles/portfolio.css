@@ -96,14 +96,15 @@ main {
     max-width: 1140px;
     margin: 0 auto;
 }
-section{
+
+section {
 
     margin-top: 130px;
 }
 
 /* section styles */
 .about {
-    
+
 
     background: #FFF8F3;
 
@@ -116,7 +117,7 @@ section{
 }
 
 .section-title {
-    
+
     color: var(--dark-01, #181818);
     font-size: 35px;
     margin-bottom: 50px;
@@ -203,6 +204,85 @@ section{
     color: var(--dark-03, #757575);
     font-size: 16px;
     font-weight: 400;
+
+}
+
+/* Resume styles */
+.resume-content {
+    display: flex;
+    gap: 24px;
+
+}
+
+.resume-item {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.resume .title {
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--dark-02, #474747);
+    margin-bottom: 10px;
+
+}
+
+.resume .subtitle {
+    color: var(--dark-03, #757575);
+
+    font-size: 20px;
+
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
+
+.resume .discription {
+    color: var(--dark-03, #757575);
+
+    font-size: 16px;
+
+    font-weight: 400;
+
+}
+
+.resume-btn {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.contract {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
     
 }
-/* Resume styles */
+
+.contract .section-title {
+    text-align: left;
+
+}
+
+.contract .discription {
+    color: var(--dark-02, #474747);
+    
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+
+}
+.contract input[type="text"],[type="email"] ,textarea{
+    margin-bottom: 24px;
+    padding:18px 30px;
+    border: 0;
+    width: 100%;
+
+}
+input{
+    height: 64px;
+}
+.contract a{
+    text-decoration: none;
+}
