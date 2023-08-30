@@ -28,6 +28,21 @@
     padding: 18px 35px 19px 35px;
 
 }
+.btn-contract{
+    height: 64px;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    margin-left: 30px;
+    
+   
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    
+    padding: 18px 35px 19px 35px;
+
+}
 
 
 /* header and navigation title */
